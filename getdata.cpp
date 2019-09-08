@@ -57,7 +57,7 @@ int main()
 		stu[i].score = v + little;//高斯正态函数normal_distribution
 	}
 
-	for (int k = 0; k < 10; k++)
+	for (int k = 0; k < 16; k++)
 	{
 		ofstream output;
 		string str1,str2;
@@ -80,7 +80,7 @@ int main()
 		output.close();
 	}
 
-	for (int k = 0; k < 10; k++)
+	for (int k = 0; k < 16; k++)
 	{
 		ofstream output;
 		string str1, str2;
